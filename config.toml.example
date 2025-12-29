@@ -1,0 +1,12 @@
+[database]
+host = "localhost"
+port = 3306
+user = "root"
+password = "password"
+database = "test_db"
+
+[app]
+start_dir = "./sql_files"
+
+[file_intervals]
+# 设置特定SQL文件的生成间隔时间（分钟）"./sql_files/query1.sql" = 60  # 每小时更新一次"./sql_files/subdir/query2.sql" = 1440  # 每天更新一次
